@@ -1,0 +1,25 @@
+---
+import Link from "../components/Link.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="About">
+  <section class="container about" aria-label="About Me">
+    <img src="/images/headshot.jpg" alt="my photo" width="200" height="330" />
+    <div class="content">
+      <h1 class="h1">About Me</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        mollitia itaque voluptate quos sapiente, exercitationem quae soluta
+        cupiditate molestias ullam, provident cum repellat vero deleniti quam ea
+        fuga adipisci ratione ducimus dolore? Voluptatum omnis pariatur vero
+        suscipit, modi itaque impedit?
+      </p>
+      <Link
+        href="mailto:work.korotenko@gmail.com"
+        style="primary"
+        text="Contact Me"
+      />
+    </div>
+  </section>
+</MainLayout>
