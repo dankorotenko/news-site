@@ -1,5 +1,10 @@
+import CyrillicToTranslit from 'cyrillic-to-translit-js';
+
+const cyrillicToTranslit = new CyrillicToTranslit();
+
+
 export function slugify(text) {
-  return text
+  return cyrillicToTranslit.transform(text, '-')
     .toString()
     .toLowerCase()
     .replace(/\s+/g, "-")

@@ -1,11 +1,15 @@
 const navData = [
     {
-        name: 'About',
+        name: 'О нас',
         path: "/about/",
     },
     {
-        name: 'Blog',
-        path: '/blog/'
+        name: 'Помощь беженцам',
+        path: '/help/'
+    },
+    {
+        name: 'Поддержите нас',
+        path: '/support/'
     }
 ]
 

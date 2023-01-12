@@ -12,8 +12,10 @@
   },
   "dependencies": {
     "@astrojs/image": "^0.12.1",
+    "@fontsource/bebas-neue": "^4.5.9",
     "astro": "^1.7.1",
     "astro-icon": "^0.8.0",
+    "cyrillic-to-translit-js": "^3.2.1",
     "postcss": "^8.4.20",
     "postcss-preset-env": "^7.8.3",
     "sharp": "^0.31.3"

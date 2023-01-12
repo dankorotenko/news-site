@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: Why is this CSS so weird?
+title: «Забрали на подвал, пытали, порвали сухожилия». Как Россия терроризирует сотрудников Запорожской АЭС, опасаясь потери контроля над станцией
 date: 2022-12-09
 author: Anna Dixon
 image: {
@@ -9,7 +9,7 @@ image: {
 }
 description: The global css file for this site is a bit different than I’d write things normally, but I’m trying to keep you from having to write a bunch of random classes.
 draft: false
-category: CSS
+category: Politics
 ---
 
 Nisi duis ex aliqua eu officia eiusmod duis magna pariatur. Irure laborum qui aliqua nulla esse cillum laborum aliquip nulla elit. Id id Lorem duis irure cillum culpa. Nulla sint et aliqua velit do. Nulla sit sit proident consectetur enim ullamco aliqua in reprehenderit ullamco officia.
