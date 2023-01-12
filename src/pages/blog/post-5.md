@@ -2,14 +2,14 @@
 layout: "../../layouts/BlogPostLayout.astro"
 title: Холодная голова и короткая память. Почему Путин и его коллеги-чекисты избежали люстрации и сделали успешные карьеры
 date: 2022-12-05
-author: Victoria Greenfelder
+author: Виктория Гринфилд
 image: {
   src: "/images/post-5.jpg",
-  alt: "A picture of a coder",
+  alt: "news image",
 }
-description: This is a blog post about the JavaScript programming language. Like it, love it, hate it, it's here to stay.
+
 draft: false
-category: Politics
+category: Политика
 ---
 
 Nisi duis ex aliqua eu officia eiusmod duis magna pariatur. Irure laborum qui aliqua nulla esse cillum laborum aliquip nulla elit. Id id Lorem duis irure cillum culpa. Nulla sint et aliqua velit do. Nulla sit sit proident consectetur enim ullamco aliqua in reprehenderit ullamco officia.
