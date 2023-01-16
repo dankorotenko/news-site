@@ -8,7 +8,6 @@ const allPosts = await Astro.glob("./blog/*.md");
 
 const formattedPosts = formatBlogPosts(allPosts, {
   filterOutHelp: true,
-  limit: 3
 });
 ---
 
@@ -25,14 +24,5 @@ const formattedPosts = formatBlogPosts(allPosts, {
         ))
       }
     </div>
-    <nav aria-label="Blog pages">
-      <Link
-        text="Больше новостей"
-        href="#more"
-        style="primary"
-        borderVisible={false}
-        isFilled={false}
-      />
-    </nav>
   </section>
 </MainLayout>
