@@ -408,8 +408,8 @@ button {
   }
 }
 
-.help{
-  & a{
+.help {
+  & a {
     text-decoration: none;
   }
 }
@@ -622,4 +622,82 @@ header {
 
 .sidebar [aria-label="Blog categories"] {
   margin-block: 0;
+}
+
+.support {
+  & h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  & .notation {
+    max-width: 650px;
+    text-align: center;
+    color: #ccc;
+  }
+  & form {
+    width: 100vw;
+    & input {
+      background-color: #000;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      border: none;
+      &#expiry-date,
+      &#cvv {
+        width: 15%;
+      }
+      &#card-number {
+        width: 70%;
+      }
+      &[type="submit"] {
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+        margin-top: 2rem;
+        padding-inline: 2rem;
+        &:hover {
+          background-color: hsl(var(--accent));
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+/* styles for the payment tabs */
+.payment-form {
+  /* width: 100%; */
+  background-color: #191919;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.payment-tabs,
+.currency-tabs {
+  width: 100%;
+  display: flex;
+  background-color: #000;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.payment-tab,
+.currency-tab {
+  /* added styles */
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border-bottom: none;
+  width: 33.33%;
+  background-color: #000;
+}
+.payment-tab.active,
+.currency-tab.active {
+  background-color: #f1f1f1;
+  color: #000;
+  border-bottom: 2px solid #000;
 }

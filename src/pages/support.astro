@@ -1,33 +1,19 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import Icon from 'astro-icon';
+import Icon from "astro-icon";
+import PaymentForm from "../components/PaymentForm.jsx";
 ---
 
-<MainLayout title="Помощь беженцам">
-  <section
-    class="container help"
-    style={{
-      display: "grid",
-      placeItems: "center",
-      textAlign: "center",
-      gap: "var(--space-sm)",
-    }}
-  >
-    <div class="content">
-      <h1 class="h1">Поддержите нас!</h1>
-      <p>
-        <p>Вот реквизиты для поддержки:</p>
-        <div class="links">
-          <a
-            href="https://www.instagram.com/mishaburnews/?igshid=YmMyMTA2M2Y%3D"
-            target="_blank"
-            ><Icon name="tabler:brand-instagram" height="32" width="32" />
-          </a>
-          <a href="https://t.me/mishaburnews" target="_blank"
-            ><Icon name="tabler:brand-telegram" height="32" width="32" />
-          </a>
-        </div>
-      </p>
+<MainLayout title="Поддержите Нас">
+  <section class="support">
+    <h1 class="h1">Поддержите нас!</h1>
+    <PaymentForm client:load />
+    <div class="notation">
+      Дорогие читатели! Мы больше не можем принимать платежи из России. Но нам
+      по-прежнему можно перевести деньги из любой другой точки планеты.
+      Пожалуйста, расскажите об этом своим близким и друзьям, живущим
+      за границей. А еще мы принимаем криптовалюту. Нашей редакции нужна
+      поддержка. Как никогда.
     </div>
   </section>
 </MainLayout>
