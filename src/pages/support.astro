@@ -1,10 +1,11 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import Icon from 'astro-icon';
 ---
 
 <MainLayout title="Помощь беженцам">
   <section
-    class="container"
+    class="container help"
     style={{
       display: "grid",
       placeItems: "center",
@@ -15,7 +16,17 @@ import MainLayout from "../layouts/MainLayout.astro";
     <div class="content">
       <h1 class="h1">Поддержите нас!</h1>
       <p>
-        Ну Поддержите Пожалуйста :)
+        <p>Вот реквизиты для поддержки:</p>
+        <div class="links">
+          <a
+            href="https://www.instagram.com/mishaburnews/?igshid=YmMyMTA2M2Y%3D"
+            target="_blank"
+            ><Icon name="tabler:brand-instagram" height="32" width="32" />
+          </a>
+          <a href="https://t.me/mishaburnews" target="_blank"
+            ><Icon name="tabler:brand-telegram" height="32" width="32" />
+          </a>
+        </div>
       </p>
     </div>
   </section>

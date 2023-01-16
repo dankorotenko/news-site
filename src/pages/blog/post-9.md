@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: Хорватия начала принимать заявления на шенген от россиян
-date: 2022-01-06
+date: 2023-01-14
 author: Миша Бур
 image: {
   src: "/images/post-9.jpg",

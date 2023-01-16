@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: Немецкие солдаты будут размещены в Польще
-date: 2022-12-06
+title: Немецкие солдаты будут размещены в Польше
+date: 2023-01-14
 author: Миша Бур
 image: {
   src: "/images/post-6.jpg",

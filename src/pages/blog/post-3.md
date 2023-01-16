@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: Министр обороны ФРГ уйдет в отставку - СМИ
-date: 2022-12-12
+date: 2023-01-15
 author: Дарья Нилова
 image: {
   src: "/images/post-3.jpg",

@@ -372,6 +372,10 @@ button {
       gap: 5px;
       text-decoration: none;
     }
+    & .links {
+      display: flex;
+      gap: 1rem;
+    }
   }
 }
 
@@ -404,6 +408,11 @@ button {
   }
 }
 
+.help{
+  & a{
+    text-decoration: none;
+  }
+}
 /* posts */
 
 .post-container {

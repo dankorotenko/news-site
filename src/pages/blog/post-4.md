@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: Германия отменяет требование носить маски в поездах
-date: 2022-12-09
+date: 2023-01-14
 author: Миша Бур
 image: {
   src: "/images/post-4.jpg",
