@@ -25,16 +25,21 @@ export function formatBlogPosts(
     filterOutFuturePosts = true,
     sortByDate = true,
     limit = undefined,
+    filterOnlyHelp = false,
+    filterOutHelp = false,
   } = {}
 ) {
   const filteredPosts = posts.reduce((acc, post) => {
-    const { date, draft } = post.frontmatter;
+    const { date, draft, category } = post.frontmatter;
     //FilterOutDrafts if true
     if (filterOutDrafts && draft) return acc;
+
+    if (filterOutHelp && category === 'Помощь') return acc;
 
     //filterOutFuturePosts if true
     if (filterOutFuturePosts && new Date(date) > new Date()) return acc;
 
+    if (filterOnlyHelp && category !== 'Помощь') return acc;
     //add post to acc
     acc.push(post);
 
@@ -56,4 +61,9 @@ export function formatBlogPosts(
   }
 
   return filteredPosts;
+}
+
+
+export function morePosts(amount = 0){
+return amount+=3;
 }

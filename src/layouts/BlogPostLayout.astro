@@ -2,15 +2,39 @@
 import MainLayout from "./MainLayout.astro";
 const { frontmatter } = Astro.props;
 import PostHeader from "../components/PostHeader.astro";
+import RelatedPosts from "../components/RelatedPosts.astro";
+
+import { formatBlogPosts } from "../js/utils";
 const { title, date, description, category, author, image } = frontmatter;
+
+const allPosts = await Astro.glob("../pages/blog/*.md");
+const formattedPosts = formatBlogPosts(allPosts, {
+  sortByDate: false,
+});
+
+const relatedPosts = formattedPosts
+  .filter(
+    (post) =>
+      post.frontmatter.category === category && post.frontmatter.title !== title
+  )
+  .slice(0, 3);
 ---
 
 <MainLayout {title} {description}>
-  <PostHeader {title} {date} {category} {author} {image}/>
+  <PostHeader {title} {date} {category} {author} {image} />
   <div class="post-content">
     <div class="content">
       <slot />
     </div>
-    <div class="sidebar"></div>
+    <div class="sidebar">
+      {
+        relatedPosts.length > 0 && (
+          <aside class="container" aria-label="Related posts">
+            <h2 class="h3">Читайте еще</h2>
+            <RelatedPosts {relatedPosts} />
+          </aside>
+        )
+      }
+    </div>
   </div>
 </MainLayout>

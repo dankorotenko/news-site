@@ -3,29 +3,36 @@ import MainLayout from "../layouts/MainLayout.astro";
 import PostCard from "../components/PostCard.astro";
 import Link from "../components/Link.astro";
 
-import { formatBlogPosts } from "../js/utils";
+import { formatBlogPosts, morePosts } from "../js/utils";
 const allPosts = await Astro.glob("./blog/*.md");
+
 const formattedPosts = formatBlogPosts(allPosts, {
-  // filterOutDrafts: false,
-  // filterOutFuturePosts: false,
-  // sortByData: false,
-  // limit: 3,
+  filterOutHelp: true,
+  limit: 3
 });
 ---
 
-<MainLayout title="Main">
-    <section class="container" aria-label="New Blog Posts">
-        <h2 class="h1">Новости</h2>
-        <div class="post-container">
-          {
-            formattedPosts.map((post) => (
-              <PostCard
-                frontmatter={post.frontmatter}
-                url={post.url}
-                tagType="h3"
-              />
-            ))
-          }
-        </div>
-      </section>
+<MainLayout title="Главная | Новости">
+  <section class="container" aria-label="New Blog Posts">
+    <div class="post-container">
+      {
+        formattedPosts.map((post) => (
+          <PostCard
+            frontmatter={post.frontmatter}
+            url={post.url}
+            tagType="h3"
+          />
+        ))
+      }
+    </div>
+    <nav aria-label="Blog pages">
+      <Link
+        text="Больше новостей"
+        href="#more"
+        style="primary"
+        borderVisible={false}
+        isFilled={false}
+      />
+    </nav>
+  </section>
 </MainLayout>

@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: Вербатим — 2022. Краткая хроника войны в цитатах
+title: Министр обороны ФРГ уйдет в отставку - СМИ
 date: 2022-12-12
-author: Джон Сноу
+author: Дарья Нилова
 image: {
   src: "/images/post-3.jpg",
   alt: "news image",
@@ -12,14 +12,14 @@ draft: false
 category: Общество
 ---
 
-Nisi duis ex aliqua eu officia eiusmod duis magna pariatur. Irure laborum qui aliqua nulla esse cillum laborum aliquip nulla elit. Id id Lorem duis irure cillum culpa. Nulla sint et aliqua velit do. Nulla sit sit proident consectetur enim ullamco aliqua in reprehenderit ullamco officia.
+По данным Sueddeutsche Zeitung, отставка министра обороны Германии может состояться уже на следующей неделе.
 
-## Well, then. Let’s talk.
+В пятницу также эту новость сообщило издание Bild, ссылаясь на несколько источников.
 
-Ad ipsum velit sint enim exercitation mollit consequat elit mollit qui commodo aute. Laboris culpa voluptate aliquip incididunt duis. Cupidatat aliquip et sunt aute fugiat cupidatat irure voluptate. Occaecat officia et sunt.
+Ламбрехт сама хочет уйти в отставку. Сейчас еще решается, кто будет ее преемником (или преемницей).
 
-Officia tempor voluptate enim consequat cillum aute fugiat cupidatat incididunt magna labore in commodo. Eiusmod nostrud non deserunt. Incididunt excepteur pariatur magna. Proident aute ad in velit labore enim sit cillum ad mollit proident et qui. Esse sunt ullamco ullamco ipsum enim eu esse id eu exercitation laboris magna Lorem. Anim nostrud officia anim velit do exercitation labore mollit excepteur excepteur ex.
+После отставки Ламбрехт имеет право на пенсию в размере 5000 евро с 65 лет, отмечает Bild.
 
-Ipsum adipisicing exercitation dolor pariatur labore qui. Culpa cupidatat ea elit eiusmod tempor ea qui dolor Lorem laborum adipisicing. Ad ea laboris qui cupidatat deserunt culpa. Nulla ex velit adipisicing proident fugiat deserunt sunt eu adipisicing sint incididunt quis qui. Nulla fugiat labore duis ullamco reprehenderit excepteur laboris tempor ullamco aliquip laborum aliqua. Est tempor nisi magna ut elit pariatur commodo.
+Министра обороны Германии Кристине Ламбрехт критиковали за нехватку боеприпасов, артиллерийских снарядов и ракет на складах Бундесвера. Также недавно был скандал БМП Puma, когда все единицы этой техники вышли из строя после всего недели учений.
 
-Labore commodo do incididunt amet ad et exercitation magna veniam veniam aute laboris excepteur occaecat Lorem. Fugiat in magna commodo magna nulla eu. Fugiat nulla aliqua sunt duis enim irure aliquip fugiat aliqua Lorem ad tempor incididunt proident incididunt. Labore fugiat tempor esse cillum voluptate culpa anim sunt consequat. Ipsum minim nostrud laborum sit aliquip duis officia consequat est. Fugiat mollit elit nulla. Sit minim est elit labore. Sunt eu pariatur pariatur ut deserunt nulla labore in non sit tempor voluptate ex.
+Недавно мы еще рассказывали про видео с новогодним обращением, которое раскритиковали и за содержание, и за то, что оно было снято на фоне салютов, хотя речь шла в видео про войну в Украине.

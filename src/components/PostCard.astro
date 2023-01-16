@@ -6,7 +6,7 @@ const Tag = tagType;
 const { title, image, date, author, category, description } = frontmatter;
 ---
 
-<article class="card">
+<article class="card grid-item">
   <small>
     <a href={`/category/${slugify(category)}`} class="badge">{category}</a>
   </small>
@@ -14,24 +14,23 @@ const { title, image, date, author, category, description } = frontmatter;
     <Image
       src={image.src}
       alt={image.alt}
-      width="400"
-      height="250"
+      width=600"
+      height="400"
       format="webp"
       fit="cover"
       quality={80}
-      aspectRatio="4:1"
+      aspectRatio="1:1"
     />
   </a>
-  <div class="content">
-    <div>
+<div class="content">
       <Tag class="h2">
         <a href={url}>{title}</a>
       </Tag>
-      <small>
-        <a href={`/author/${slugify(author)}`}>{author}</a> • {
-          formatDate(date)
-        }
-      </small>
     </div>
-  </div>
+    <small class="author">
+      <a href={`/author/${slugify(author)}`}>{author}</a> • {
+        formatDate(date)
+      }
+    </small>
+    
 </article>

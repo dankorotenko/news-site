@@ -28,7 +28,7 @@ const { posts, authorName } = Astro.props;
 
 <MainLayout title={`Category: ${authorName}`}>
   <section class="container" aria-label={`${authorName}'s posts`}>
-    <h1 class="h1"><span>{authorName}'s</span> posts</h1>
+    <h1 class="h1">Новости от <span>{authorName}</span></h1>
     <div class="post-container">
       {
         posts.map((post) => (
