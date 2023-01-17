@@ -386,10 +386,12 @@ button {
   align-items: center;
   margin-block: var(--space-xl);
 
+
   @media --md {
     grid-template-columns: 1fr 1fr;
     place-content: center;
   }
+
 
   & img {
     height: 400px;
@@ -700,4 +702,11 @@ header {
   background-color: #f1f1f1;
   color: #000;
   border-bottom: 2px solid #000;
+}
+
+
+@media screen and (width <= 480px) {
+ .about{
+  padding-inline: 2%;
+ }
 }
