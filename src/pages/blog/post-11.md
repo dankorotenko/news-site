@@ -3,10 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: В обновлённом рейтинге паспортов мира - Германия на 3 месте
 date: 2023-01-12
 author: Миша Бур
-image: {
-  src: "/images/post-11.jpg",
-  alt: "news image",
-}
+image: "/images/post-11.jpg"
 draft: false
 category: Общество
 ---

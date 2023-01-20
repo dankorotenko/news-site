@@ -3,10 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: В Чехии продлевают на год режим временной защиты украинцев
 date: 2023-01-13
 author: Миша Бур
-image: {
-  src: "/images/post-8.jpg",
-  alt: "help image",
-}
+image: "/images/post-8.jpg"
 draft: false
 category: Помощь
 ---

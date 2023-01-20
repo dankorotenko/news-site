@@ -3,10 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: Немецкие солдаты будут размещены в Польше
 date: 2023-01-14
 author: Миша Бур
-image: {
-  src: "/images/post-6.jpg",
-  alt: "news image",
-}
+image: "/images/post-6.jpg"
 draft: false
 category: Война
 ---

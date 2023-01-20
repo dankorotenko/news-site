@@ -3,10 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: Германия не пойдет на передачу танков Украине самостоятельно - Шольц
 date: 2023-01-11
 author: Миша Бур
-image: {
-  src: "/images/post-12.jpg",
-  alt: "news image",
-}
+image: "/images/post-12.jpg"
 draft: false
 category: Война
 ---

@@ -3,10 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: Казахстан поставит 300 тыс. тонн нефти в ФРГ в 1 квартале 2023 года
 date: 2023-01-14
 author: Дарья Нилова
-image: {
-  src: "/images/post-5.jpg",
-  alt: "news image",
-}
+image: "/images/post-5.jpg"
 
 draft: false
 category: Политика

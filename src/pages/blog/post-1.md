@@ -3,10 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: Германия на следующей неделе объявит решение о поставках Украине
 date: 2023-01-15
 author: Дарья Нилова
-image: {
-  src: "/images/post-1.jpg",
-  alt: "news image",
-}
+image: "/images/post-1.jpg"
 draft: false
 category: Война
 ---

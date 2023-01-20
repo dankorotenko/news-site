@@ -3,10 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: Британские танки для Украины не изменят позицию Шольца, - она зависит от Байдена, - Politico
 date: 2023-01-12
 author: Миша Бур
-image: {
-  src: "/images/post-10.jpg",
-  alt: "news image",
-}
+image: "/images/post-10.jpg"
 draft: false
 category: Война
 ---

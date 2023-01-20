@@ -3,10 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: "Россияне, сбежавшие от мобилизации в Германию: что их ждет"
 date: 2023-01-12
 author: Миша Бур
-image: {
-  src: "/images/post-7.jpg",
-  alt: "help image",
-}
+image: "/images/post-7.jpg"
 draft: false
 category: Помощь
 ---
