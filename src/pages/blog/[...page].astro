@@ -12,10 +12,11 @@ export async function getStaticPaths({ paginate }) {
     // filterOutFuturePosts: false,
     // sortByData: false,
     // limit: 3,
+    filterOutHelp: true,
   });
 
   return paginate(formattedPosts, {
-    pageSize: 3,
+    // pageSize: 3,
   });
 }
 
